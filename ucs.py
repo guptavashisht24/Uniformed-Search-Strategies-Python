@@ -39,7 +39,7 @@ class Graphs_lx:
                    t = k[1][:]
                    t.append(v[0])
                    heapq.heappush(p,[k[0]+v[1],t])
-                   print p
+          #prints the path with minimum cost, if it exists         
           print sol
                    
 p = Graphs_lx()
